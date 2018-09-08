@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="aeH-zk-IsH">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--profile-->
+        <scene sceneID="O4e-0v-XCg">
+            <objects>
+                <navigationController id="aeH-zk-IsH" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="profile" image="user" id="ll9-n7-cJz"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="AOS-tA-dhv">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="zAx-CY-SfV" kind="relationship" relationship="rootViewController" id="7eU-Xr-9HE"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZJ0-Mi-8PI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-222" y="100"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="s42-aJ-cCp">
+            <objects>
+                <viewController id="zAx-CY-SfV" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2qp-Ov-joZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="2000"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MCd-yM-65d">
+                                <rect key="frame" x="0.0" y="64" width="375" height="1887"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Profilbild" translatesAutoresizingMaskIntoConstraints="NO" id="Dzq-sk-sfX">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="200" id="POz-Nv-ZxE"/>
+                                        </constraints>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ZHc-a2-MZw">
+                                        <rect key="frame" x="16" y="315" width="343" height="180"/>
+                                        <color key="backgroundColor" name="colorPrimary"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="180" id="Hmx-gD-4du"/>
+                                        </constraints>
+                                        <string key="text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.   
+
+Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.   
+
+Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.   
+
+Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.   
+
+Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.   
+
+At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur</string>
+                                        <color key="textColor" name="colorSecondaryDarkMilk"/>
+                                        <fontDescription key="fontDescription" name="PingFangHK-Regular" family="PingFang HK" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CLARA GRIESBECK" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IQR-Gm-yDB">
+                                        <rect key="frame" x="16" y="232" width="343" height="31"/>
+                                        <fontDescription key="fontDescription" name="PingFangHK-Regular" family="PingFang HK" pointSize="22"/>
+                                        <color key="textColor" name="colorSecondaryDarkMilk"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ÜBER" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Knw-cR-zSc">
+                                        <rect key="frame" x="16" y="271" width="343" height="28"/>
+                                        <fontDescription key="fontDescription" name="PingFangHK-Regular" family="PingFang HK" pointSize="20"/>
+                                        <color key="textColor" name="colorSecondaryDarkMilk"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WAS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yp9-Cl-qAg">
+                                        <rect key="frame" x="16" y="503" width="343" height="28"/>
+                                        <fontDescription key="fontDescription" name="PingFangHK-Regular" family="PingFang HK" pointSize="20"/>
+                                        <color key="textColor" name="colorSecondaryDarkMilk"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="nLj-hx-K4s">
+                                        <rect key="frame" x="16" y="539" width="343" height="180"/>
+                                        <color key="backgroundColor" name="colorPrimary"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="180" id="BET-QU-Xfp"/>
+                                        </constraints>
+                                        <string key="text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.   
+
+Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.   
+
+Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.   
+
+Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.   
+
+Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.   
+
+At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur</string>
+                                        <color key="textColor" name="colorSecondaryDarkMilk"/>
+                                        <fontDescription key="fontDescription" name="PingFangHK-Regular" family="PingFang HK" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="INTERESSEN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y2k-im-isR">
+                                        <rect key="frame" x="16" y="727" width="343" height="28"/>
+                                        <fontDescription key="fontDescription" name="PingFangHK-Regular" family="PingFang HK" pointSize="20"/>
+                                        <color key="textColor" name="colorSecondaryDarkMilk"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="xlK-p4-gmB">
+                                        <rect key="frame" x="16" y="763" width="343" height="28"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kochen" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="siC-Rq-tHo">
+                                                <rect key="frame" x="0.0" y="0.0" width="181" height="28"/>
+                                                <fontDescription key="fontDescription" name="PingFangHK-Regular" family="PingFang HK" pointSize="20"/>
+                                                <color key="textColor" name="colorSecondaryDarkMilk"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reisen" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YfK-nz-BPL">
+                                                <rect key="frame" x="181" y="0.0" width="162" height="28"/>
+                                                <fontDescription key="fontDescription" name="PingFangHK-Regular" family="PingFang HK" pointSize="20"/>
+                                                <color key="textColor" name="colorSecondaryDarkMilk"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" name="colorPrimary"/>
+                                <constraints>
+                                    <constraint firstItem="xlK-p4-gmB" firstAttribute="leading" secondItem="MCd-yM-65d" secondAttribute="leading" constant="16" id="1Zg-El-B70"/>
+                                    <constraint firstItem="xlK-p4-gmB" firstAttribute="top" secondItem="Y2k-im-isR" secondAttribute="bottom" constant="8" id="4qY-Yg-EDO"/>
+                                    <constraint firstAttribute="trailing" secondItem="Dzq-sk-sfX" secondAttribute="trailing" id="5yJ-X2-gaF"/>
+                                    <constraint firstItem="Knw-cR-zSc" firstAttribute="top" secondItem="IQR-Gm-yDB" secondAttribute="bottom" constant="8" id="7Mb-sv-AZj"/>
+                                    <constraint firstItem="nLj-hx-K4s" firstAttribute="leading" secondItem="MCd-yM-65d" secondAttribute="leading" constant="16" id="Bqd-8q-XgF"/>
+                                    <constraint firstAttribute="trailing" secondItem="Y2k-im-isR" secondAttribute="trailing" constant="16" id="CZI-JN-g5G"/>
+                                    <constraint firstItem="Knw-cR-zSc" firstAttribute="leading" secondItem="MCd-yM-65d" secondAttribute="leading" constant="16" id="IS5-Li-3QJ"/>
+                                    <constraint firstAttribute="trailing" secondItem="yp9-Cl-qAg" secondAttribute="trailing" constant="16" id="OiQ-1F-YrG"/>
+                                    <constraint firstItem="Dzq-sk-sfX" firstAttribute="leading" secondItem="MCd-yM-65d" secondAttribute="leading" id="OyW-Q4-Ika"/>
+                                    <constraint firstAttribute="trailing" secondItem="IQR-Gm-yDB" secondAttribute="trailing" constant="16" id="Qal-w5-LOf"/>
+                                    <constraint firstAttribute="bottom" secondItem="xlK-p4-gmB" secondAttribute="bottom" constant="8" id="T9i-Vq-Fhw"/>
+                                    <constraint firstItem="yp9-Cl-qAg" firstAttribute="leading" secondItem="MCd-yM-65d" secondAttribute="leading" constant="16" id="VIP-VJ-TZc"/>
+                                    <constraint firstAttribute="trailing" secondItem="ZHc-a2-MZw" secondAttribute="trailing" constant="16" id="Zmo-zk-uaI"/>
+                                    <constraint firstAttribute="trailing" secondItem="nLj-hx-K4s" secondAttribute="trailing" constant="16" id="Zsw-I6-eHx"/>
+                                    <constraint firstItem="nLj-hx-K4s" firstAttribute="top" secondItem="yp9-Cl-qAg" secondAttribute="bottom" constant="8" id="br0-UP-Zhn"/>
+                                    <constraint firstItem="Dzq-sk-sfX" firstAttribute="top" secondItem="MCd-yM-65d" secondAttribute="top" id="c9z-Je-H9K"/>
+                                    <constraint firstItem="ZHc-a2-MZw" firstAttribute="top" secondItem="Knw-cR-zSc" secondAttribute="bottom" constant="16" id="e89-rI-rMT"/>
+                                    <constraint firstItem="Y2k-im-isR" firstAttribute="top" secondItem="nLj-hx-K4s" secondAttribute="bottom" constant="8" id="kVf-ex-m2E"/>
+                                    <constraint firstAttribute="trailing" secondItem="xlK-p4-gmB" secondAttribute="trailing" constant="16" id="omb-Ds-bzt"/>
+                                    <constraint firstItem="ZHc-a2-MZw" firstAttribute="leading" secondItem="MCd-yM-65d" secondAttribute="leading" constant="16" id="qvC-1t-6RB"/>
+                                    <constraint firstItem="IQR-Gm-yDB" firstAttribute="top" secondItem="Dzq-sk-sfX" secondAttribute="bottom" constant="32" id="rHW-B9-A5k"/>
+                                    <constraint firstItem="IQR-Gm-yDB" firstAttribute="leading" secondItem="MCd-yM-65d" secondAttribute="leading" constant="16" id="tji-an-QZr"/>
+                                    <constraint firstAttribute="trailing" secondItem="Knw-cR-zSc" secondAttribute="trailing" constant="16" id="vW3-Bb-Dhj"/>
+                                    <constraint firstItem="Y2k-im-isR" firstAttribute="leading" secondItem="MCd-yM-65d" secondAttribute="leading" constant="16" id="y7w-LS-ZGr"/>
+                                    <constraint firstItem="yp9-Cl-qAg" firstAttribute="top" secondItem="ZHc-a2-MZw" secondAttribute="bottom" constant="8" id="yrv-la-Oll"/>
+                                </constraints>
+                            </scrollView>
+                            <button opaque="NO" contentMode="scaleAspectFit" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Buo-YF-QhH">
+                                <rect key="frame" x="134" y="1917" width="89" height="30"/>
+                                <color key="backgroundColor" name="colorSecondaryDark"/>
+                                <state key="normal" title="BEARBEITEN">
+                                    <color key="titleColor" name="colorPrimary"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" name="colorPrimary"/>
+                        <constraints>
+                            <constraint firstItem="Dzq-sk-sfX" firstAttribute="width" secondItem="Vxj-Sn-4jv" secondAttribute="width" id="DZ2-EO-tQc"/>
+                            <constraint firstItem="MCd-yM-65d" firstAttribute="top" secondItem="2qp-Ov-joZ" secondAttribute="topMargin" id="MgS-i7-esM"/>
+                            <constraint firstItem="Vxj-Sn-4jv" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Buo-YF-QhH" secondAttribute="trailing" constant="4" id="NCT-Do-sgr"/>
+                            <constraint firstItem="Buo-YF-QhH" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Vxj-Sn-4jv" secondAttribute="leading" constant="4" id="Uw4-Tg-IZn"/>
+                            <constraint firstAttribute="trailing" secondItem="MCd-yM-65d" secondAttribute="trailing" id="XyE-19-UJq"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="MCd-yM-65d" secondAttribute="bottom" id="mgA-Cd-s0c"/>
+                            <constraint firstItem="MCd-yM-65d" firstAttribute="leading" secondItem="2qp-Ov-joZ" secondAttribute="leading" id="spc-8G-Cxx"/>
+                            <constraint firstItem="Vxj-Sn-4jv" firstAttribute="bottom" secondItem="Buo-YF-QhH" secondAttribute="bottom" constant="4" id="wg5-Wr-Y5p"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Vxj-Sn-4jv"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="sHD-c3-eI3"/>
+                    <size key="freeformSize" width="375" height="2000"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1Hp-61-GmJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="736.79999999999995" y="98.50074962518741"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Profilbild" width="883" height="536"/>
+        <image name="user" width="28" height="28"/>
+        <namedColor name="colorPrimary">
+            <color red="1" green="0.99599999189999999" blue="0.96100002529999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="colorSecondaryDark">
+            <color red="0.28999999165534973" green="0.28999999165534973" blue="0.36899998784065247" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="colorSecondaryDarkMilk">
+            <color red="0.29019607843137257" green="0.29019607843137257" blue="0.36862745098039218" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
