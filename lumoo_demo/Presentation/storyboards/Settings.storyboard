@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2J4-dB-hQo">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--settings-->
+        <scene sceneID="cNF-qO-b70">
+            <objects>
+                <navigationController id="2J4-dB-hQo" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="settings" image="plus" id="5qV-DZ-3oP"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="hpy-DL-XVq">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="fBA-yc-nhd" kind="relationship" relationship="rootViewController" id="XdQ-jH-R81"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MLE-Rl-PFR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-204" y="119"/>
+        </scene>
+        <!--Einstellungen-->
+        <scene sceneID="AiC-Ic-ISS">
+            <objects>
+                <viewController id="fBA-yc-nhd" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cs3-Rf-Fu2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view alpha="0.90000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hvW-na-twA">
+                                <rect key="frame" x="16" y="64" width="343" height="554"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="bWQ-BU-sMb">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="554"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Kontoeinstellungen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LTS-9q-fZu">
+                                                <rect key="frame" x="0.0" y="0.0" width="343" height="110"/>
+                                                <color key="backgroundColor" name="colorPrimary"/>
+                                                <fontDescription key="fontDescription" name="PingFangHK-Regular" family="PingFang HK" pointSize="27"/>
+                                                <color key="textColor" name="colorSecondaryDark"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Benachrichtigungen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1sA-Nd-Ts7">
+                                                <rect key="frame" x="0.0" y="111" width="343" height="110"/>
+                                                <color key="backgroundColor" name="colorPrimary"/>
+                                                <fontDescription key="fontDescription" name="PingFangHK-Regular" family="PingFang HK" pointSize="27"/>
+                                                <color key="textColor" name="colorSecondaryDark"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Demotour" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Yg-wu-efO">
+                                                <rect key="frame" x="0.0" y="222" width="343" height="110"/>
+                                                <color key="backgroundColor" name="colorPrimary"/>
+                                                <fontDescription key="fontDescription" name="PingFangHK-Regular" family="PingFang HK" pointSize="27"/>
+                                                <color key="textColor" name="colorSecondaryDark"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Kontakt" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C08-wJ-tyb">
+                                                <rect key="frame" x="0.0" y="333" width="343" height="110"/>
+                                                <color key="backgroundColor" name="colorPrimary"/>
+                                                <fontDescription key="fontDescription" name="PingFangHK-Regular" family="PingFang HK" pointSize="27"/>
+                                                <color key="textColor" name="colorSecondaryDark"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Datenschutz" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cwm-8w-KKt">
+                                                <rect key="frame" x="0.0" y="444" width="343" height="110"/>
+                                                <color key="backgroundColor" name="colorPrimary"/>
+                                                <fontDescription key="fontDescription" name="PingFangHK-Regular" family="PingFang HK" pointSize="27"/>
+                                                <color key="textColor" name="colorSecondaryDark"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" name="colorPrimary"/>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" name="colorSecondaryDark"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="bWQ-BU-sMb" secondAttribute="bottom" id="25h-t8-zKJ"/>
+                                    <constraint firstItem="bWQ-BU-sMb" firstAttribute="leading" secondItem="hvW-na-twA" secondAttribute="leading" id="NJQ-UE-QKZ"/>
+                                    <constraint firstItem="bWQ-BU-sMb" firstAttribute="top" secondItem="hvW-na-twA" secondAttribute="top" id="kHh-nx-QzP"/>
+                                    <constraint firstAttribute="trailing" secondItem="bWQ-BU-sMb" secondAttribute="trailing" id="pL5-tM-gEs"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" name="colorPrimary"/>
+                        <constraints>
+                            <constraint firstItem="hvW-na-twA" firstAttribute="leading" secondItem="cs3-Rf-Fu2" secondAttribute="leading" constant="16" id="K2l-jj-b6y"/>
+                            <constraint firstItem="hvW-na-twA" firstAttribute="bottom" secondItem="cs3-Rf-Fu2" secondAttribute="bottomMargin" id="OVU-bA-z6c"/>
+                            <constraint firstItem="hvW-na-twA" firstAttribute="top" secondItem="cs3-Rf-Fu2" secondAttribute="topMargin" id="ZBw-zw-r8j"/>
+                            <constraint firstItem="hvW-na-twA" firstAttribute="trailing" secondItem="cs3-Rf-Fu2" secondAttribute="trailingMargin" id="uEa-1k-Idy"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="av0-lZ-UhR"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Einstellungen" id="nuD-KO-63i"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JAf-sF-LUe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="815.20000000000005" y="115.59220389805098"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="plus" width="16" height="16"/>
+        <namedColor name="colorPrimary">
+            <color red="1" green="0.99599999189376831" blue="0.96100002527236938" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="colorSecondaryDark">
+            <color red="0.28999999165534973" green="0.28999999165534973" blue="0.36899998784065247" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

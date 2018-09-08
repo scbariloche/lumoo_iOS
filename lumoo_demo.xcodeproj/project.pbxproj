@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F99A7C7921074DA400824E03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99A7C7821074DA400824E03 /* AppDelegate.swift */; };
+		F99A7C7B21074DA400824E03 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99A7C7A21074DA400824E03 /* DiscoverViewController.swift */; };
+		F99A7C7D21074DA400824E03 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99A7C7C21074DA400824E03 /* ChatViewController.swift */; };
+		F99A7C8021074DA400824E03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F99A7C7E21074DA400824E03 /* Main.storyboard */; };
+		F99A7C8221074DA800824E03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F99A7C8121074DA800824E03 /* Assets.xcassets */; };
+		F99A7C8521074DA800824E03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F99A7C8321074DA800824E03 /* LaunchScreen.storyboard */; };
+		F99A7C9021074DA800824E03 /* lumoo_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99A7C8F21074DA800824E03 /* lumoo_demoTests.swift */; };
+		F99A7C9B21074DA800824E03 /* lumoo_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99A7C9A21074DA800824E03 /* lumoo_demoUITests.swift */; };
+		F99A7CAE2107506900824E03 /* Discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F99A7CAD2107506900824E03 /* Discover.storyboard */; };
+		F99A7CB02107572300824E03 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F99A7CAF2107572300824E03 /* Profile.storyboard */; };
+		F99A7CB22107582600824E03 /* Chat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F99A7CB12107582600824E03 /* Chat.storyboard */; };
+		F99A7CB42107591500824E03 /* Events.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F99A7CB32107591500824E03 /* Events.storyboard */; };
+		F99A7CB62107598800824E03 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F99A7CB52107598800824E03 /* Settings.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F99A7C8C21074DA800824E03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F99A7C6D21074DA400824E03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F99A7C7421074DA400824E03;
+			remoteInfo = lumoo_demo;
+		};
+		F99A7C9721074DA800824E03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F99A7C6D21074DA400824E03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F99A7C7421074DA400824E03;
+			remoteInfo = lumoo_demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F99A7C7521074DA400824E03 /* lumoo_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lumoo_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F99A7C7821074DA400824E03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F99A7C7A21074DA400824E03 /* DiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
+		F99A7C7C21074DA400824E03 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		F99A7C7F21074DA400824E03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F99A7C8121074DA800824E03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F99A7C8421074DA800824E03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F99A7C8621074DA800824E03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F99A7C8B21074DA800824E03 /* lumoo_demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lumoo_demoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F99A7C8F21074DA800824E03 /* lumoo_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lumoo_demoTests.swift; sourceTree = "<group>"; };
+		F99A7C9121074DA800824E03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F99A7C9621074DA800824E03 /* lumoo_demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lumoo_demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F99A7C9A21074DA800824E03 /* lumoo_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lumoo_demoUITests.swift; sourceTree = "<group>"; };
+		F99A7C9C21074DA800824E03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F99A7CAD2107506900824E03 /* Discover.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Discover.storyboard; sourceTree = "<group>"; };
+		F99A7CAF2107572300824E03 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		F99A7CB12107582600824E03 /* Chat.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Chat.storyboard; sourceTree = "<group>"; };
+		F99A7CB32107591500824E03 /* Events.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Events.storyboard; sourceTree = "<group>"; };
+		F99A7CB52107598800824E03 /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F99A7C7221074DA400824E03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F99A7C8821074DA800824E03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F99A7C9321074DA800824E03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F99A7C6C21074DA400824E03 = {
+			isa = PBXGroup;
+			children = (
+				F99A7C7721074DA400824E03 /* lumoo_demo */,
+				F99A7C8E21074DA800824E03 /* lumoo_demoTests */,
+				F99A7C9921074DA800824E03 /* lumoo_demoUITests */,
+				F99A7C7621074DA400824E03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F99A7C7621074DA400824E03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F99A7C7521074DA400824E03 /* lumoo_demo.app */,
+				F99A7C8B21074DA800824E03 /* lumoo_demoTests.xctest */,
+				F99A7C9621074DA800824E03 /* lumoo_demoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F99A7C7721074DA400824E03 /* lumoo_demo */ = {
+			isa = PBXGroup;
+			children = (
+				F99A7C7821074DA400824E03 /* AppDelegate.swift */,
+				F99A7CA821074F8300824E03 /* Presentation */,
+				F99A7CA921074F8C00824E03 /* Operation */,
+				F99A7CAA21074FDE00824E03 /* DataAccess */,
+				F99A7C8121074DA800824E03 /* Assets.xcassets */,
+				F99A7C8621074DA800824E03 /* Info.plist */,
+			);
+			path = lumoo_demo;
+			sourceTree = "<group>";
+		};
+		F99A7C8E21074DA800824E03 /* lumoo_demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F99A7C8F21074DA800824E03 /* lumoo_demoTests.swift */,
+				F99A7C9121074DA800824E03 /* Info.plist */,
+			);
+			path = lumoo_demoTests;
+			sourceTree = "<group>";
+		};
+		F99A7C9921074DA800824E03 /* lumoo_demoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F99A7C9A21074DA800824E03 /* lumoo_demoUITests.swift */,
+				F99A7C9C21074DA800824E03 /* Info.plist */,
+			);
+			path = lumoo_demoUITests;
+			sourceTree = "<group>";
+		};
+		F99A7CA821074F8300824E03 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				F99A7CAC2107502800824E03 /* storyboards */,
+				F99A7CAB2107501D00824E03 /* ViewController */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		F99A7CA921074F8C00824E03 /* Operation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Operation;
+			sourceTree = "<group>";
+		};
+		F99A7CAA21074FDE00824E03 /* DataAccess */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataAccess;
+			sourceTree = "<group>";
+		};
+		F99A7CAB2107501D00824E03 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F99A7C7A21074DA400824E03 /* DiscoverViewController.swift */,
+				F99A7C7C21074DA400824E03 /* ChatViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F99A7CAC2107502800824E03 /* storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F99A7C7E21074DA400824E03 /* Main.storyboard */,
+				F99A7CAF2107572300824E03 /* Profile.storyboard */,
+				F99A7CB12107582600824E03 /* Chat.storyboard */,
+				F99A7CAD2107506900824E03 /* Discover.storyboard */,
+				F99A7CB32107591500824E03 /* Events.storyboard */,
+				F99A7CB52107598800824E03 /* Settings.storyboard */,
+				F99A7C8321074DA800824E03 /* LaunchScreen.storyboard */,
+			);
+			path = storyboards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F99A7C7421074DA400824E03 /* lumoo_demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F99A7C9F21074DA800824E03 /* Build configuration list for PBXNativeTarget "lumoo_demo" */;
+			buildPhases = (
+				F99A7C7121074DA400824E03 /* Sources */,
+				F99A7C7221074DA400824E03 /* Frameworks */,
+				F99A7C7321074DA400824E03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lumoo_demo;
+			productName = lumoo_demo;
+			productReference = F99A7C7521074DA400824E03 /* lumoo_demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F99A7C8A21074DA800824E03 /* lumoo_demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F99A7CA221074DA800824E03 /* Build configuration list for PBXNativeTarget "lumoo_demoTests" */;
+			buildPhases = (
+				F99A7C8721074DA800824E03 /* Sources */,
+				F99A7C8821074DA800824E03 /* Frameworks */,
+				F99A7C8921074DA800824E03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F99A7C8D21074DA800824E03 /* PBXTargetDependency */,
+			);
+			name = lumoo_demoTests;
+			productName = lumoo_demoTests;
+			productReference = F99A7C8B21074DA800824E03 /* lumoo_demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F99A7C9521074DA800824E03 /* lumoo_demoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F99A7CA521074DA800824E03 /* Build configuration list for PBXNativeTarget "lumoo_demoUITests" */;
+			buildPhases = (
+				F99A7C9221074DA800824E03 /* Sources */,
+				F99A7C9321074DA800824E03 /* Frameworks */,
+				F99A7C9421074DA800824E03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F99A7C9821074DA800824E03 /* PBXTargetDependency */,
+			);
+			name = lumoo_demoUITests;
+			productName = lumoo_demoUITests;
+			productReference = F99A7C9621074DA800824E03 /* lumoo_demoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F99A7C6D21074DA400824E03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Andreas Denk";
+				TargetAttributes = {
+					F99A7C7421074DA400824E03 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					F99A7C8A21074DA800824E03 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = F99A7C7421074DA400824E03;
+					};
+					F99A7C9521074DA800824E03 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = F99A7C7421074DA400824E03;
+					};
+				};
+			};
+			buildConfigurationList = F99A7C7021074DA400824E03 /* Build configuration list for PBXProject "lumoo_demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F99A7C6C21074DA400824E03;
+			productRefGroup = F99A7C7621074DA400824E03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F99A7C7421074DA400824E03 /* lumoo_demo */,
+				F99A7C8A21074DA800824E03 /* lumoo_demoTests */,
+				F99A7C9521074DA800824E03 /* lumoo_demoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F99A7C7321074DA400824E03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F99A7CB22107582600824E03 /* Chat.storyboard in Resources */,
+				F99A7C8521074DA800824E03 /* LaunchScreen.storyboard in Resources */,
+				F99A7CB42107591500824E03 /* Events.storyboard in Resources */,
+				F99A7CB62107598800824E03 /* Settings.storyboard in Resources */,
+				F99A7CAE2107506900824E03 /* Discover.storyboard in Resources */,
+				F99A7CB02107572300824E03 /* Profile.storyboard in Resources */,
+				F99A7C8221074DA800824E03 /* Assets.xcassets in Resources */,
+				F99A7C8021074DA400824E03 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F99A7C8921074DA800824E03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F99A7C9421074DA800824E03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F99A7C7121074DA400824E03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F99A7C7D21074DA400824E03 /* ChatViewController.swift in Sources */,
+				F99A7C7921074DA400824E03 /* AppDelegate.swift in Sources */,
+				F99A7C7B21074DA400824E03 /* DiscoverViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F99A7C8721074DA800824E03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F99A7C9021074DA800824E03 /* lumoo_demoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F99A7C9221074DA800824E03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F99A7C9B21074DA800824E03 /* lumoo_demoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F99A7C8D21074DA800824E03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F99A7C7421074DA400824E03 /* lumoo_demo */;
+			targetProxy = F99A7C8C21074DA800824E03 /* PBXContainerItemProxy */;
+		};
+		F99A7C9821074DA800824E03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F99A7C7421074DA400824E03 /* lumoo_demo */;
+			targetProxy = F99A7C9721074DA800824E03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F99A7C7E21074DA400824E03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F99A7C7F21074DA400824E03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F99A7C8321074DA800824E03 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F99A7C8421074DA800824E03 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F99A7C9D21074DA800824E03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F99A7C9E21074DA800824E03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F99A7CA021074DA800824E03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99N3J2UGM9;
+				INFOPLIST_FILE = lumoo_demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "thinkad.lumoo-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F99A7CA121074DA800824E03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99N3J2UGM9;
+				INFOPLIST_FILE = lumoo_demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "thinkad.lumoo-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F99A7CA321074DA800824E03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99N3J2UGM9;
+				INFOPLIST_FILE = lumoo_demoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "thinkad.lumoo-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lumoo_demo.app/lumoo_demo";
+			};
+			name = Debug;
+		};
+		F99A7CA421074DA800824E03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99N3J2UGM9;
+				INFOPLIST_FILE = lumoo_demoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "thinkad.lumoo-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lumoo_demo.app/lumoo_demo";
+			};
+			name = Release;
+		};
+		F99A7CA621074DA800824E03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99N3J2UGM9;
+				INFOPLIST_FILE = lumoo_demoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "thinkad.lumoo-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = lumoo_demo;
+			};
+			name = Debug;
+		};
+		F99A7CA721074DA800824E03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99N3J2UGM9;
+				INFOPLIST_FILE = lumoo_demoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "thinkad.lumoo-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = lumoo_demo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F99A7C7021074DA400824E03 /* Build configuration list for PBXProject "lumoo_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F99A7C9D21074DA800824E03 /* Debug */,
+				F99A7C9E21074DA800824E03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F99A7C9F21074DA800824E03 /* Build configuration list for PBXNativeTarget "lumoo_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F99A7CA021074DA800824E03 /* Debug */,
+				F99A7CA121074DA800824E03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F99A7CA221074DA800824E03 /* Build configuration list for PBXNativeTarget "lumoo_demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F99A7CA321074DA800824E03 /* Debug */,
+				F99A7CA421074DA800824E03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F99A7CA521074DA800824E03 /* Build configuration list for PBXNativeTarget "lumoo_demoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F99A7CA621074DA800824E03 /* Debug */,
+				F99A7CA721074DA800824E03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F99A7C6D21074DA400824E03 /* Project object */;
+}
